@@ -1,0 +1,38 @@
+htmi {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1rem;
+}
+header,
+section,
+footer {
+  padding: 1rem;
+  border: dotted grey 1px;
+}
+figure img {
+  max-width: 100%;
+  display: block;
+}
+h1,
+p {
+  margin-block-end: 1rem;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  border-block-start: 0;
+  border-block-end: 0;
+}
+/*footer {
+} */
+/* section,
+p {
+  width: 60%;
+  float: left;
+} */
